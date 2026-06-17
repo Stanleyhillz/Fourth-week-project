@@ -3,22 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    
+body {
+  background-color: rgb(65, 101, 65);
 }
-.first div {
-  background-color: azure;
+.navbar {
+  padding: 5;
+  margin: 20px;
+  
+}
+  
+
+.link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  list-style-type: none;
+  
+  
+}
+
+a{
+text-decoration: none;
+color: gray;
+}
+.u{
+  color: rgb(154, 237, 209);
   justify-items: center;
   align-items: center;
+  padding: 50px;
 }
-.second div {
-  background-color: antiquewhite;
-  padding-bottom: 20px;
-  flex-direction: row;
-}
-.third div {
-  background-color: aquamarine;
-  padding: 30px;
-  justify-items: center;
-  align-items: center;
-}
+
+
